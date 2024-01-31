@@ -6,5 +6,4 @@ function addCustomBehaviorToApproveButton() {
     });
 }
 
-// ページが読み込まれたときに関数を実行
 window.addEventListener('load', addCustomBehaviorToApproveButton);
