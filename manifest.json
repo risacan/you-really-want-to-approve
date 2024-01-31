@@ -15,5 +15,8 @@
                 "content.js"
             ]
         }
-    ]
+    ],
+    "icons": {
+        "48": "assets/icon.png"
+    }
 }
