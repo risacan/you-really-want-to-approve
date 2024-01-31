@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "You Really Want to Approve This GitHub PR?",
+    "version": "1.0",
+    "description": "Enhance GitHub PR review experience.",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://github.com/*/*/pull/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
